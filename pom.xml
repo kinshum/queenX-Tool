@@ -24,6 +24,8 @@
         <module>queen-bom</module>
         <module>queen-core-auto</module>
         <module>queen-core-launch</module>
+        <module>queen-core-tool</module>
+        <module>queen-core-db</module>
     </modules>
 
     <dependencyManagement>

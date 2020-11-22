@@ -38,7 +38,7 @@ public class AutoFactoriesProcessor extends AbstractQueenProcessor {
 	/**
 	 * Feign 自动配置
 	 */
-	private static final String FEIGN_AUTO_CONFIGURE_KEY = "org.springblade.core.cloud.feign.BladeFeignAutoConfiguration";
+	private static final String FEIGN_AUTO_CONFIGURE_KEY = "com.queen.core.cloud.feign.QueenFeignAutoConfiguration";
 	/**
 	 * The location to look for factories.
 	 * <p>Can be present in multiple JAR files.

@@ -57,7 +57,16 @@
                 <artifactId>queen-core-launch</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-tool</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-db</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
 
             <!-- Nacos -->
             <dependency>
