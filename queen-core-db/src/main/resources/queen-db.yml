@@ -19,7 +19,7 @@ spring:
       min-evictable-idle-time-millis: 300000
       stat-view-servlet:
         enabled: true
-        login-username: blade
+        login-username: queen
         login-password: 1qaz@WSX
       web-stat-filter:
         enabled: true

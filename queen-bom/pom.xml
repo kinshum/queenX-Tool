@@ -67,6 +67,21 @@
                 <artifactId>queen-core-db</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-context</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-auth</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-jwt</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
 
             <!-- Nacos -->
             <dependency>

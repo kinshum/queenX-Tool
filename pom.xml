@@ -26,6 +26,9 @@
         <module>queen-core-launch</module>
         <module>queen-core-tool</module>
         <module>queen-core-db</module>
+        <module>queen-core-context</module>
+        <module>queen-core-auth</module>
+        <module>queen-core-jwt</module>
     </modules>
 
     <dependencyManagement>
