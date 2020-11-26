@@ -29,6 +29,8 @@
         <module>queen-core-context</module>
         <module>queen-core-auth</module>
         <module>queen-core-jwt</module>
+        <module>queen-core-cloud</module>
+        <module>queen-starter-cache</module>
     </modules>
 
     <dependencyManagement>

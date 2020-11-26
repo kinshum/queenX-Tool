@@ -82,6 +82,16 @@
                 <artifactId>queen-core-jwt</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-cloud</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-cache</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
 
             <!-- Nacos -->
             <dependency>
