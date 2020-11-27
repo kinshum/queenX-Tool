@@ -49,6 +49,7 @@
         <module>queen-starter-ribbon</module>
         <module>queen-core-excel</module>
         <module>queen-core-boot</module>
+        <module>queen-core-oss</module>
     </modules>
 
     <dependencyManagement>
