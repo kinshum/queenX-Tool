@@ -92,6 +92,21 @@
                 <artifactId>queen-starter-cache</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-secure</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-log</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-log</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
 
             <!-- Nacos -->
             <dependency>
