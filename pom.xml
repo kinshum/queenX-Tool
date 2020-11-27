@@ -33,6 +33,7 @@
         <module>queen-starter-cache</module>
         <module>queen-core-secure</module>
         <module>queen-core-log</module>
+        <module>queen-core-log4j2</module>
     </modules>
 
     <dependencyManagement>

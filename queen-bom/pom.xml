@@ -107,6 +107,11 @@
                 <artifactId>queen-core-log</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-log4j2</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
 
             <!-- Nacos -->
             <dependency>
