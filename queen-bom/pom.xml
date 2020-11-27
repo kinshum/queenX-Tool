@@ -117,6 +117,52 @@
                 <artifactId>queen-starter-swagger</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-mybatis</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-redis</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-tenant</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-trace</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-transaction</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-http</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-ehcache</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-datascope</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-actuate</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+
 
             <!-- Nacos -->
             <dependency>

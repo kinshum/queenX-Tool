@@ -35,6 +35,16 @@
         <module>queen-core-log</module>
         <module>queen-core-log4j2</module>
         <module>queen-starter-swagger</module>
+        <module>queen-starter-mybatis</module>
+        <module>queen-starter-redis</module>
+        <module>queen-starter-tenant</module>
+        <module>queen-starter-trace</module>
+        <module>queen-starter-transaction</module>
+        <module>queen-starter-http</module>
+        <module>queen-starter-ehcache</module>
+        <module>queen-starter-datascope</module>
+        <module>queen-starter-actuate</module>
+        <module>queen-starter-api-crypto</module>
     </modules>
 
     <dependencyManagement>

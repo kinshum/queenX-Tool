@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>queenX-Tool</artifactId>
+        <groupId>com.queen</groupId>
+        <version>2.2.6</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>queen-starter-tenant</artifactId>
+    <name>${project.artifactId}</name>
+    <version>${project.parent.version}</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.queen</groupId>
+            <artifactId>queen-starter-mybatis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.queen</groupId>
+            <artifactId>queen-starter-cache</artifactId>
+        </dependency>
+        <!-- Druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!--Dynamic-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- Auto -->
+        <dependency>
+            <groupId>com.queen</groupId>
+            <artifactId>queen-core-auto</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
