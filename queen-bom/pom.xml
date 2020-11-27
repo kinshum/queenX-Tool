@@ -187,6 +187,12 @@
                 <artifactId>queen-core-excel</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-oss</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+
 
 
             <!-- Nacos -->
