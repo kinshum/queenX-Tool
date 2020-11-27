@@ -45,6 +45,10 @@
         <module>queen-starter-datascope</module>
         <module>queen-starter-actuate</module>
         <module>queen-starter-api-crypto</module>
+        <module>queen-core-test</module>
+        <module>queen-starter-ribbon</module>
+        <module>queen-core-excel</module>
+        <module>queen-core-boot</module>
     </modules>
 
     <dependencyManagement>

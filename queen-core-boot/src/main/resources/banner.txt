@@ -1,0 +1,8 @@
+${AnsiColor.BLUE}                       _/_/_/  _/    _/    _/_/      _/_/    _/_/_/
+${AnsiColor.BLUE}                    _/    _/  _/    _/  _/_/_/_/  _/_/_/_/  _/    _/
+${AnsiColor.BLUE}                   _/    _/  _/    _/  _/        _/        _/    _/
+${AnsiColor.BLUE}                    _/_/_/    _/_/_/    _/_/_/    _/_/_/  _/    _/
+${AnsiColor.BLUE}                       _/
+${AnsiColor.BLUE}                      _/
+
+${AnsiColor.BLUE}:: Queen ${queen.service.version} :: ${spring.application.name}:${AnsiColor.RED}${queen.env}${AnsiColor.BLUE} :: Running SpringBoot ${spring-boot.version} :: ${AnsiColor.BRIGHT_BLACK}

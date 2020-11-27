@@ -84,6 +84,11 @@
             </dependency>
             <dependency>
                 <groupId>com.queen</groupId>
+                <artifactId>queen-core-boot</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
                 <artifactId>queen-core-cloud</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
@@ -160,6 +165,26 @@
             <dependency>
                 <groupId>com.queen</groupId>
                 <artifactId>queen-starter-actuate</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-api-crypto</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-test</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-starter-ribbon</artifactId>
+                <version>${queen.tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.queen</groupId>
+                <artifactId>queen-core-excel</artifactId>
                 <version>${queen.tool.version}</version>
             </dependency>
 
