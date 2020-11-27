@@ -34,6 +34,7 @@
         <module>queen-core-secure</module>
         <module>queen-core-log</module>
         <module>queen-core-log4j2</module>
+        <module>queen-starter-swagger</module>
     </modules>
 
     <dependencyManagement>

@@ -1,0 +1,11 @@
+#swagger公共信息
+swagger:
+  title: QueenX 接口文档系统
+  description: QueenX 接口文档系统
+  license: Powered By QueenX
+  license-url: https://xxxx.vip
+  terms-of-service-url: https://xxxx.vip
+  contact:
+    name: jensen
+    email: shenjian26@hotmail.com
+    url: https://xxxx
