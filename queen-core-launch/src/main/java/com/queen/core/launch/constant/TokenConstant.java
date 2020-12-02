@@ -7,6 +7,7 @@ package com.queen.core.launch.constant;
  */
 public interface TokenConstant {
 
+	String SIGN_KEY = "Queen";
 	String AVATAR = "avatar";
 	String HEADER = "Queen-Auth";
 	String BEARER = "bearer";
