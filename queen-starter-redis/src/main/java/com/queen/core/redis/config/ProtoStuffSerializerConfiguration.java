@@ -1,4 +1,3 @@
-
 package com.queen.core.redis.config;
 
 import com.queen.core.redis.serializer.ProtoStuffSerializer;

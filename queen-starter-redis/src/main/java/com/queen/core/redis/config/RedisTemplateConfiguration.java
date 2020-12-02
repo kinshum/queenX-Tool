@@ -2,7 +2,6 @@ package com.queen.core.redis.config;
 
 import com.queen.core.jwt.config.JwtRedisConfiguration;
 import com.queen.core.redis.cache.QueenRedis;
-import com.queen.core.redis.cache.QueenRedisCache;
 import com.queen.core.redis.serializer.RedisKeySerializer;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
