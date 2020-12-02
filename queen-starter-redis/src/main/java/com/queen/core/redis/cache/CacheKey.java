@@ -1,4 +1,3 @@
-
 package com.queen.core.redis.cache;
 
 import lombok.AllArgsConstructor;
