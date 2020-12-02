@@ -10,21 +10,20 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 
 /**
  * ProtoStuff 序列化配置
- *
  */
 @Configuration
 @AutoConfigureBefore(RedisTemplateConfiguration.class)
 @ConditionalOnClass(name = "io.protostuff.Schema")
 public class ProtoStuffSerializerConfiguration implements QueenRedisSerializerConfigAble {
 
-	@Bean
-	@ConditionalOnMissingBean
-	@Override
-	public RedisSerializer<Object> redisSerializer(QueenRedisProperties properties) {
-		if (QueenRedisProperties.SerializerType.ProtoStuff == properties.getSerializerType()) {
-			return new ProtoStuffSerializer();
-		}
-		return defaultRedisSerializer(properties);
-	}
+    @Bean
+    @ConditionalOnMissingBean
+    @Override
+    public RedisSerializer<Object> redisSerializer(QueenRedisProperties properties) {
+        if (QueenRedisProperties.SerializerType.ProtoStuff == properties.getSerializerType()) {
+            return new ProtoStuffSerializer();
+        }
+        return defaultRedisSerializer(properties);
+    }
 
 }

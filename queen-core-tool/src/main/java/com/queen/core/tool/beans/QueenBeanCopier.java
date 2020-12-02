@@ -106,7 +106,7 @@ public abstract class QueenBeanCopier {
 
 		@Override
 		protected ClassLoader getDefaultClassLoader() {
-			// L.cm 保证 和 返回使用同一个 ClassLoader
+			// 保证 和 返回使用同一个 ClassLoader
 			return target.getClassLoader();
 		}
 
@@ -141,7 +141,7 @@ public abstract class QueenBeanCopier {
 				return;
 			}
 
-			// 2018.12.27 by L.cm 支持链式 bean
+			// 支持链式 bean
 			// 注意：此处需兼容链式bean 使用了 spring 的方法，比较耗时
 			PropertyDescriptor[] getters = ReflectUtil.getBeanGetters(source);
 			PropertyDescriptor[] setters = ReflectUtil.getBeanSetters(target);
@@ -189,12 +189,12 @@ public abstract class QueenBeanCopier {
 				Class<?> getterPropertyType = getter.getPropertyType();
 				Class<?> setterPropertyType = setter.getPropertyType();
 
-				// L.cm 2019.01.12 优化逻辑，先判断类型，类型一致直接 set，不同再判断 是否 类型转换
+				// 优化逻辑，先判断类型，类型一致直接 set，不同再判断 是否 类型转换
 				// nonNull Label
 				Label l0 = e.make_label();
 				// 判断类型是否一致，包括 包装类型
 				if (ClassUtil.isAssignable(setterPropertyType, getterPropertyType)) {
-					// 2018.12.27 by L.cm 支持链式 bean
+					// 支持链式 bean
 					e.load_local(targetLocal);
 					e.load_local(sourceLocal);
 					e.invoke(read);
@@ -289,7 +289,7 @@ public abstract class QueenBeanCopier {
 		 * @param targetType targetType
 		 */
 		public void generateClassFormMap(ClassEmitter ce, CodeEmitter e, Type sourceType, Type targetType) {
-			// 2018.12.27 by L.cm 支持链式 bean
+			// 支持链式 bean
 			PropertyDescriptor[] setters = ReflectUtil.getBeanSetters(target);
 
 			// 入口变量

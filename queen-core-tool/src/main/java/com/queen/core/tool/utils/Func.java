@@ -288,7 +288,7 @@ public class Func {
 	/**
 	 * 将字符串中特定模式的字符转换成map中对应的值
 	 * <p>
-	 * use: format("my name is ${name}, and i like ${like}!", {"name":"L.cm", "like": "Java"})
+	 * use: format("my name is ${name}, and i like ${like}!", {"name":"jensen, "like": "Java"})
 	 *
 	 * @param message 需要转换的字符串
 	 * @param params  转换所需的键值对集合
@@ -301,7 +301,7 @@ public class Func {
 	/**
 	 * 同 log 格式的 format 规则
 	 * <p>
-	 * use: format("my name is {}, and i like {}!", "L.cm", "Java")
+	 * use: format("my name is {}, and i like {}!", "jensen", "Java")
 	 *
 	 * @param message   需要转换的字符串
 	 * @param arguments 需要替换的变量

@@ -17,30 +17,29 @@ import java.util.List;
 
 /**
  * 基于 redis 的分布式限流自动配置
- *
  */
 @Configuration
 @ConditionalOnProperty(value = "queen.redis.rate-limiter.enabled", havingValue = "true")
 public class RateLimiterAutoConfiguration {
 
-	@SuppressWarnings("unchecked")
-	private RedisScript<List<Long>> redisRateLimiterScript() {
-		DefaultRedisScript redisScript = new DefaultRedisScript<>();
-		redisScript.setScriptSource(new ResourceScriptSource(new ClassPathResource("META-INF/scripts/queen_rate_limiter.lua")));
-		redisScript.setResultType(List.class);
-		return redisScript;
-	}
+    @SuppressWarnings("unchecked")
+    private RedisScript<List<Long>> redisRateLimiterScript() {
+        DefaultRedisScript redisScript = new DefaultRedisScript<>();
+        redisScript.setScriptSource(new ResourceScriptSource(new ClassPathResource("META-INF/scripts/queen_rate_limiter.lua")));
+        redisScript.setResultType(List.class);
+        return redisScript;
+    }
 
-	@Bean
-	@ConditionalOnMissingBean
-	public RedisRateLimiterClient redisRateLimiter(StringRedisTemplate redisTemplate, Environment environment) {
-		RedisScript<List<Long>> redisRateLimiterScript = redisRateLimiterScript();
-		return new RedisRateLimiterClient(redisTemplate, redisRateLimiterScript, environment);
-	}
+    @Bean
+    @ConditionalOnMissingBean
+    public RedisRateLimiterClient redisRateLimiter(StringRedisTemplate redisTemplate, Environment environment) {
+        RedisScript<List<Long>> redisRateLimiterScript = redisRateLimiterScript();
+        return new RedisRateLimiterClient(redisTemplate, redisRateLimiterScript, environment);
+    }
 
-	@Bean
-	@ConditionalOnMissingBean
-	public RedisRateLimiterAspect redisRateLimiterAspect(RedisRateLimiterClient rateLimiterClient) {
-		return new RedisRateLimiterAspect(rateLimiterClient);
-	}
+    @Bean
+    @ConditionalOnMissingBean
+    public RedisRateLimiterAspect redisRateLimiterAspect(RedisRateLimiterClient rateLimiterClient) {
+        return new RedisRateLimiterAspect(rateLimiterClient);
+    }
 }

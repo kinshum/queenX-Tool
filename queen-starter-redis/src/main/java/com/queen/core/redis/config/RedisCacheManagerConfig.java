@@ -11,15 +11,14 @@ import java.util.List;
 
 /**
  * CacheManagerCustomizers配置
- *
  */
 @Configuration
 @ConditionalOnMissingBean(CacheManagerCustomizers.class)
 public class RedisCacheManagerConfig {
 
-	@Bean
-	public CacheManagerCustomizers cacheManagerCustomizers(
-		ObjectProvider<List<CacheManagerCustomizer<?>>> customizers) {
-		return new CacheManagerCustomizers(customizers.getIfAvailable());
-	}
+    @Bean
+    public CacheManagerCustomizers cacheManagerCustomizers(
+            ObjectProvider<List<CacheManagerCustomizer<?>>> customizers) {
+        return new CacheManagerCustomizers(customizers.getIfAvailable());
+    }
 }

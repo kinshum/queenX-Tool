@@ -28,7 +28,6 @@ public class ResourceUtil extends org.springframework.util.ResourceUtils {
 	 * 3. ftp:
 	 * 4. http: and https:
 	 * 5. classpath*:
-	 * 6. C:/dir1/ and /Users/lcm
 	 * </p>
 	 *
 	 * @param resourceLocation 资源路径
