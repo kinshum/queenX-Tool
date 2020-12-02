@@ -63,9 +63,4 @@ public class RedisTemplateConfiguration implements QueenRedisSerializerConfigAbl
 		return new QueenRedis(redisTemplate);
 	}
 
-	@Bean
-	public QueenRedisCache queenRedisCache(RedisTemplate<String, Object> redisTemplate) {
-		return new QueenRedisCache(redisTemplate);
-	}
-
 }
