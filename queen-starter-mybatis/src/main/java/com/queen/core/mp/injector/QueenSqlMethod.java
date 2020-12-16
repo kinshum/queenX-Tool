@@ -1,4 +1,3 @@
-
 package com.queen.core.mp.injector;
 
 import lombok.AllArgsConstructor;

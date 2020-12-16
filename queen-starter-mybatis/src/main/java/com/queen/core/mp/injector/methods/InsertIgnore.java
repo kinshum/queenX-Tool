@@ -1,6 +1,5 @@
 package com.queen.core.mp.injector.methods;
 
-
 import com.queen.core.mp.injector.QueenSqlMethod;
 
 /**
